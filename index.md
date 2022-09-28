@@ -1,4 +1,4 @@
-[README.md](README.md)
+Click [here](./README.md) to go to the readme for this website
 # John Adams
 Think's he's a better programmer than he really is.
 
