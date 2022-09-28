@@ -1,4 +1,4 @@
-[README.md](./README.md)
+[README.md](README.md)
 # John Adams
 Think's he's a better programmer than he really is.
 
@@ -8,31 +8,31 @@ I am short, at only 5' 6" (1.68m) and have green eyes. At the moment I am experi
 
 ![John and his boyfriend Tommy](./assets/images/John_Tommy.JPG)
 
-My favorite quote is from my freshman high school english professor. He said this at the beginning of the year and it has stuck with me since.
+My favorite quote is from my high school freshman english professor. He said this at the beginning of the year and it has stuck with me since.
 
 > You can't just turn in your best, you need to turn in _A_ quality work
 > to get an A in this class.
 > 
 > — Jonathan St. John
 
-A lot of people have the misconception that trying their best is always good enough, but often times it really isn't. I will strive to not only do my best in this class, but to make sure that my best is at _A_ level.
+A lot of people submit to the misconception that trying their best is always good enough to recieve an A, but often times it really isn't. I will strive to not only do my best in this class, but to make sure that my best is at _A_ level.
 
 ## Coding
 
-I did not do any real coding before taking cse 11 my freshman year at UCSD, althgouh I did start with a lot of prior knowledge of computer science and programming basics. Given that's the case, I have learned these programming languages starting with:
+I did not do any real coding before taking CSE 11 my freshman year at UCSD, although I did start with a lot of prior knowledge of computer science and programming basics. Given that's the case, I have learned these programming languages so far in this order:
 
 1. Java
 2. C/C++
 3. Python
 
-Out of these my favorite has been C++. I like having direct control over the behavior of the program, and I think the process of developing low-level solutions to problems is a lot of fun. I'd rather design my own custom list implementation than use the built in lists if I had the opportunity.
+Out of these my favorite has been C++. I like having direct control over the behavior of a program, and I think the process of developing low-level solutions to problems is a lot of fun. I'd rather design my own custom list implementation than use the built in lists if I had the opportunity. That was there is no ambihuity in behavior.
 
 I watch a lot of YouTube videos and some of them are related to computer science and programming:
 
 - [Retro Game Mechanics Explained](https://www.youtube.com/channel/UCwRqWnW5ZkVaP_lZF7caZ-g) which is self explanatory
 - [javidx9](https://www.youtube.com/c/javidx9) who does C++ coding and projects to follow along
 
-Here's a fun square root algorithm from Quake that you can learn more about [here](https://youtu.be/p8u_k2LIZyo) if you would like.
+Here's a fun squareroot algorithm from Quake that you can learn more about [here](https://youtu.be/p8u_k2LIZyo) if you would like.
 
 ```
 float Q_rsqrt( float number )
