@@ -1,4 +1,4 @@
-[README.md](./README.md)
+[README.md](README.md)
 # John Adams
 Think's he's a better programmer than he really is.
 
