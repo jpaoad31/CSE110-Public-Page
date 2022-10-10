@@ -1,6 +1,6 @@
 Click [here](./README.md) to go to the readme for this website
 
-To go to a lab page, choose the appropriate link: [Lab2](jpaoad31.github.io/CSE110-Lab2)
+To go to a lab page, choose the appropriate link: [Lab2](/CSE110-Lab2)
 # John Adams
 Think's he's a better programmer than he really is.
 
