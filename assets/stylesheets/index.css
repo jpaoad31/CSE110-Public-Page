@@ -1,10 +1,18 @@
 * {
-	font-family: sans-serif;
+	line-height: 3ex;
+	font-family: IBM Plex Sans;
+	font-weight: 300;
+}
+
+a {
+	color: hwb(260 13% 32%);
+	font-weight: 500;
+	text-decoration: none;
 }
 
 body {
 	align-items: center;
-	background-color: rgb(240, 241, 255);
+	background-color: rgb(245, 245, 245);
 	display: flex;
 	flex-direction: column;
 	gap: 0px;
@@ -14,34 +22,56 @@ body {
 .cross-align {
 	display: flex;
 	align-items: center;
-	gap: 1rem;
+	gap: 0 1rem;
 	max-width: 80vw;
+	margin: 1rem;
 }
 
 h1 {
-	color: rgb(56, 56, 173);
-	font-weight: 100;
+	color: rgb(80, 56, 173);
+	font-family: IBM Plex Serif;
+	font-weight: 800;
 	text-align: center;
 }
 
 h2 {
-	color:rgb(43, 30, 98);
-	margin: 1em 0 0.25em 0;
+	color:rgb(70, 53, 144);
+	font-family: IBM Plex Serif;
+	font-weight: 500;
+	margin: 0.75em 0 0.4em 0;
 	text-align: center;
 }
 
 #john-portrait {
+	border-radius: 15px;
 	height: 8rem;
+	margin: 20px;
 	width: auto;
+}
+
+li {
+	font-weight: 500;
 }
 
 mark {
 	background-color: transparent;
 	color: rgb(120,120,120);
 	font-style: italic;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 p {
-	max-width: 80vw;
+	max-width: min(80vw, 400pt);
+	margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+li > p {
+	margin: 0.5rem;
+}
+
+section {
+	background-color: rgb(255,255,255);
+	border-radius: 20px;
+	margin: 1rem;
+	padding: 1rem;
 }
