@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<h1>John Adams</h1>
-		<section>
+		<section class="enclosed">
 			<h2>About Me</h2>
 			<div class="cross-align">
 				<img id="john-portrait" src="./assets/images/john-portrait.jpeg">
@@ -17,7 +17,7 @@
 			</div>
 		</section>
 		
-		<section>
+		<section class="enclosed">
 			<h2> Formal Programming Experience </h2>
 			<ul>
 				<li> C/C++
@@ -42,8 +42,18 @@
 		</section>
 		<section>
 			<h2>Projects</h2>
-			<p>This Website: <a href="https://github.com/jpaoad31/jpaoad31.github.io">GitHub</a><br/>
-			built from scratch in HTML and CSS</p>
+			<div class="horizontal-list">
+				<article class="project">
+					<h3>This Website</h3>
+					<a href="https://github.com/jpaoad31/jpaoad31.github.io">GitHub</a>
+					<p>	Built from scratch using HTML and CSS. I built it on extra time during my junior year at UCSD.</p>
+				</article>
+				<article>
+					<h3>Catch-up</h3>
+					<a href="https://github.com/katherinemwong/catchup">GitHub</a>
+					<p>Native Swift iOS application made for the 2021 <i>SD HACKS</i> Hackathon with my friend Katherine.</p>
+				</article>
+			</div>
 		</section>
 	</body>
 </html>
