@@ -36,7 +36,7 @@ body {
 .cross-align {
 	display: flex;
 	align-items: center;
-	gap: 0 1rem;
+	gap: 1rem;
 	max-width: 80vw;
 	margin: 1rem;
 }
@@ -111,4 +111,16 @@ section {
 section.enclosed {
 	background-color: rgb(255,255,255);
 	border-radius: 20px;
+}
+
+/* Mobile Web Design on Thin Screens */
+@media (max-width: 560px) {
+	.horizontal-list {
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.cross-align {
+		flex-direction: column;
+	}
 }
