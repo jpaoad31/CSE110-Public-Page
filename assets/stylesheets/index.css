@@ -1,14 +1,10 @@
-* {
-	line-height: 3ex;
-}
-
 html {
 	font-size: 12pt;
 }
 
 a {
 	color: rgb(80, 33, 173);
-	font-weight: 500;
+	font-weight: 400;
 	text-decoration: underline;
 }
 
@@ -59,7 +55,7 @@ h2 {
 	color:rgb(70, 53, 144);
 	font-family: IBM Plex Serif;
 	font-size: 1.75rem;
-	font-weight: 500;
+	font-weight: 600;
 	margin: 2rem 1rem 1.5rem;
 	padding: 0;
 	text-align: center;
@@ -98,24 +94,30 @@ hr {
 }
 
 li {
-	font-weight: 500;
+	font-weight: 500
 }
 
-mark {
+em {
 	background-color: transparent;
-	color: rgb(120,120,120);
-	font-style: italic;
+	color: rgb(34, 136, 195);
+	font-style: normal;
 	font-weight: 400;
 }
 
 p {
-	margin: 0.5rem 0.5rem 0.5rem 0.5rem;
-	font-weight: 400;
+	margin: 0.25rem 0rem ;
+	padding: 0;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.subtitle {
+	font-size: 1.1rem;
 }
 
 .enclosed {
 	margin: 0 1rem;
-	padding: 1rem;
+	padding: 1.5rem;
 	background-color: rgb(255,255,255);
 	border-radius: 20px;
 	max-width: 35rem;
