@@ -10,54 +10,81 @@
 	</head>
 	<body>
 		<h1>John Adams</h1>
-		<section class="enclosed">
+		<section>
 			<h2>About Me</h2>
-			<div class="cross-align">
+			<div class="cross-align enclosed">
 				<img id="john-portrait" src="./assets/images/john-portrait.jpeg">
-				<p>A Math-CS major at UCSD. My interests are in embeded systems, machine learning, computer graphics, and classic videogames. I love spending time with my cats and my boyfriend Tommy. My hobbies include reading, drawing, and looking up things so that I can be right about everything.</p>
+				<p>A Math-CS major at UCSD. My interests are in embeded systems, machine learning, computer graphics, and classic videogames. I love spending time with my cats and my boyfriend Tommy. My hobbies include reading, drawing, and looking up things so that I can be right about everything. Learn more about my personal life <a>here</a>.</p>
 			</div>
 		</section>
 		
-		<section class="enclosed">
+		<section class="">
 			<h2> Formal Programming Experience </h2>
-			<ul class="arrow">
-				<li> C/C++
-					<ul class="arrow">
-						<li> CSE 30, 100:<br/>
-							<mark>Implementing advanced data structures<br/>
-								solving graph-search problems<br/>
-								basic file encryption/decryption</mark>
-						</li>
-						<li>
-							CSE 120:<br/>
-							<p>
-								Implementing operating system features such as:<br/>
-								context-switching, threads, scheduling, synchronization</p>
-						</li>
-					</ul class="dashed">
-				</li>
-				<li> Python <mark>ENG 10</mark></li>
-				<li> Java <mark>CSE 11, 12</mark></li>
-				<li> HTML, CSS, JS <mark>CSE 110</mark></li>
-			</ul class="dashed">
+			<div class="">
+				<ul class="arrow enclosed">
+					<li> C/C++
+						<p class="nopad grey">The language I am most familiar with.</p>
+						<ul class="arrow">
+							<li> CSE 30: <i>Computer Organization and Systems Programming</i>
+								<p class="nopad grey">Implementing advanced data structures<br/>
+									solving graph-search problems<br/>
+									basic file encryption/decryption</p>
+							</li>
+							<li> CSE 100: <i>Advanced Data Structures</i></li>
+							<li> CSE 120: <i>Operating System Principles</i>
+								<p class="nopad grey">
+									Implementing operating system features such as:<br/>
+									context-switching, threads, scheduling, synchronization</p>
+							</li>
+						</ul class="dashed">
+					</li>
+					<hr>
+					<li> Python
+						<ul class="arrow">
+							<li> ENG 10 <i>Fundamentals of Engineering Applications</i></li>
+						</ul>
+					</li>
+					<hr>
+					<li> Java
+						<ul class="arrow">
+							<li> CSE 11: <i>Accelerated Introduction to Programming</i></li>
+							<li> CSE 12: <i>Basic Data Structures & Object Oriented Design</i></li>
+						</ul>
+					</li>
+					<hr>
+					<li> HTML, CSS, JS
+						<ul class="arrow">
+							<li> CSE 110 <i>Software Engineering</i></li>
+						</ul>
+					</li>
+				</ul class="dashed">
+			</div>
 		</section>
 		<section>
 			<h2>Projects</h2>
 			<div class="horizontal-list">
-				<article class="project">
+				<article class="enclosed">
 					<h3>This Website</h3>
 					<a class="active" href="https://github.com/jpaoad31/jpaoad31.github.io">GitHub</a>
 					<p>	Built from scratch using HTML and CSS. I made it on extra time during my junior year at UCSD.</p>
 				</article>
-				<article>
+
+				<article class="enclosed">
 					<h3>Catch-up</h3>
 					<a class="active" href="https://github.com/katherinemwong/catchup">GitHub</a>
 					<p>Native Swift iOS application made for the 2021 <i>SD HACKS</i> Hackathon with my friend Katherine.</p>
 				</article>
-				<article>
+
+				<article class="enclosed">
 					<h3>PathCross</h3>
 					<a>(not started)</a>
-					<p>Mobile application for locally sharing data with other users in close proximity.<br/>Use case: games, local socialization</p>
+					<p>Mobile application for locally sharing data with other users in close proximity. Intended for games and local-first socialization</p>
+				</article>
+
+				<article class="enclosed">
+					<h3>Planner</h3>
+					<a class="active" href="https://github.com/cse110-fa22-group38/cse110-fa22-group38">GitHub</a>
+					<p>Web application made for CSE 110. A planner designed around the quarter system to track classes, events, and assignments. </p>
 				</article>
 			</div>
 		</section>
