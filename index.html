@@ -1,92 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="description" content="Learn more about John Adams, a Math-CS major at UCSD.">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="./assets/favicon.ico" sizes="128x128">
-		<link rel="stylesheet" href="./assets/stylesheets/index.css">
-		<link rel="stylesheet" href="./assets/stylesheets/ibm-plex.css">
-	</head>
-	<body>
-		<h1>John Adams</h1>
-		<section>
-			<h2>About Me</h2>
-			<div class="cross-align enclosed">
-				<img id="john-portrait" src="./assets/images/john-portrait.jpeg">
-				<p>A Math-CS major at UCSD. My interests are in embeded systems, machine learning, computer graphics, and classic videogames. I love spending time with my cats and my boyfriend Tommy. My hobbies include reading, drawing, and looking up things so that I can be right about everything. Learn more about my personal life <a>here</a>.</p>
-			</div>
-		</section>
-		
-		<section class="">
-			<h2> Formal Programming Experience </h2>
-			<div class="">
-				<ul class="arrow enclosed">
-					<li> C/C++
-						<p class="grey">The language I am most familiar with.</p>
-						<ul class="arrow">
-							<li> CSE 30: <i>Computer Organization and Systems Programming</i>
-								<p class="grey">Implementing advanced data structures<br/>
-									solving graph-search problems<br/>
-									basic file encryption/decryption</p>
-							</li>
-							<li> CSE 100: <i>Advanced Data Structures</i></li>
-							<li> CSE 120: <i>Operating System Principles</i>
-								<p class="grey">
-									Implementing operating system features such as:<br/>
-									context-switching, threads, scheduling, synchronization</p>
-							</li>
-						</ul class="dashed">
-					</li>
-					<hr>
-					<li> Python
-						<ul class="arrow">
-							<li> ENG 10 <i>Fundamentals of Engineering Applications</i></li>
-						</ul>
-					</li>
-					<hr>
-					<li> Java
-						<ul class="arrow">
-							<li> CSE 11: <i>Accelerated Introduction to Programming</i></li>
-							<li> CSE 12: <i>Basic Data Structures & Object Oriented Design</i></li>
-						</ul>
-					</li>
-					<hr>
-					<li> HTML, CSS, JS
-						<ul class="arrow">
-							<li> CSE 110 <i>Software Engineering</i></li>
-						</ul>
-					</li>
-				</ul class="dashed">
-			</div>
-		</section>
-		<section>
-			<h2>Projects</h2>
-			<div class="horizontal-list">
-				<article class="enclosed">
-					<h3>This Website</h3>
-					<p class="subtitle"><a href="https://github.com/jpaoad31/jpaoad31.github.io">GitHub</a></p>
-					<p>	Built from scratch using <em>HTML</em> and <em>CSS</em>. I made it on extra time during my junior year at UCSD.</p>
-				</article>
-
-				<article class="enclosed">
-					<h3>Catch-up</h3>
-					<p class="subtitle"><a href="https://github.com/katherinemwong/catchup">GitHub</a></p>
-					<p>Mobile app (iOS) made using <em>Swift & SwiftUI</em> for the 2021 <i>SD HACKS</i> hackathon with my friend Katherine Wong. Be reminded to <i>catch up</i> with friends/family using notifications.</p>
-				</article>
-
-				<article class="enclosed">
-					<h3>Planner</h3>
-					<p class="subtitle"><a href="https://github.com/cse110-fa22-group38/cse110-fa22-group38">GitHub</a></p>
-					<p>Web app (<em>HTML/CSS/JS</em>) hosted with <em>express.js</em> made for CSE 110. A planner designed around the quarter system to track classes, events, and assignments.</p>
-				</article>
-
-				<article class="enclosed">
-					<h3>PathCross</h3>
-					<p class="subtitle">(not started)</p>
-					<p>Mobile app for locally sharing data with other users in close proximity over bluetooth. Intended for games and local-first socialization. Expected in Summer 2023.</p>
-				</article>
-			</div>
-		</section>
-	</body>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Learn more about John Adams, a Math-CS major at UCSD.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" sizes="128x128">
+    <link rel="stylesheet" href="./assets/stylesheets/index.css">
+    <link rel="stylesheet" href="./assets/stylesheets/ibm-plex.css">
+    <script>
+        MathJax = {
+            tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script type="text/javascript" src="./assets/script/index.js"></script>
+</head>
+<body>
+    <h1>John Adams</h1>
+    <section>
+        <h2>About Me</h2>
+        <div class="cross-align enclosed">
+            <img id="john-portrait" src="./assets/images/john-portrait.jpeg">
+            <p>A Math-CS major at UCSD. My interests are in embeded systems, computer graphics, and classic videogames. I love spending time with my cats and my boyfriend Tommy. My hobbies include reading, drawing, and looking up things so that I can be right about everything. Have fun!</p>
+        </div>
+    </section>
+    
+    <section class="">
+        <h2> Formal Programming Experience </h2>
+        <div class="">
+            <ul class="arrow enclosed">
+                <li> C/C++
+                    <ul class="arrow">
+                        <li> CSE 30: <i>Computer Organization and Systems Programming</i>
+                        </li>
+                        <li> CSE 100: <i>Advanced Data Structures</i></li>
+                        <li> CSE 120: <i>Operating System Principles</i></li>
+                        <li> CSE 167: <i>Computer Graphics</i></li>
+                    </ul class="dashed">
+                </li>
+                <hr>
+                <li> Python
+                    <ul class="arrow">
+                        <li> ENG 10: <i>Fundamentals of Engineering Applications</i></li>
+                        <li> CSE 107: <i>Cryptography</i></li>
+                    </ul>
+                </li>
+                <hr>
+                <li> HTML, CSS, JS
+                    <ul class="arrow">
+                        <li> CSE 110: <i>Software Engineering</i></li>
+                        <li> CSE 127: <i>Computer Security</i></li>
+                    </ul>
+                </li>
+                <hr>
+                <li> SystemVerilog
+                    <ul class="arrow">
+                        <li> CSE 140: <i>Intro to Computer Architecture</i></li>
+                        <li> CSE 141: <i>Project in Computer Architecture</i></li>
+                    </ul>
+                </li>
+            </ul class="dashed">
+        </div>
+    </section>
+    <section>
+        <h2 id="h-projects">Projects</h2>
+        <div id="project-container" class="horizontal-list">
+        </div>
+    </section>
+</body>
 </html>
