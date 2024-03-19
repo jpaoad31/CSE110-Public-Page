@@ -5,12 +5,12 @@ projects = [
         href: "https://jpaoad31.github.io/SplitScan/",
         site: "Webpage"
     },
-    {
+    /*{
         name: "Stream DeX",
         desc: "Make $\\LaTeX$ icons for your Stream Deck. Uses MathJax and the canvas element to render mathematics into padded square images. Started as a Swift command line tool I made adding padding to and inverting png images of symbols.",
         href: "",
         site: "coming soon"
-    },
+    },*/
     {
         name: "9-Bit CPU",
         desc: "9-bit CPU written from scratch using SystemVerilog in 4 weeks for a class project. It was inspired by the 6502 and I have written 3 different programs for it: two for creating and reading error correcting codes, one for counting bit patterns in a stream of data.",
